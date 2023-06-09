@@ -1,0 +1,57 @@
+div .map-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div .text-container {
+    margin-bottom: 30px
+}
+
+td {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr:first-child td {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr td:first-child {
+    border-left: none;
+}
+
+table tr td:last-child {
+    border-right: none;
+}
+
+button {
+    background-color: #4762e8;
+    border-radius: 8px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+}
+
+button:hover {
+    background-color: #7686d6;
+}
